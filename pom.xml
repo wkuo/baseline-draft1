@@ -110,7 +110,7 @@
       <version>${polopoly.version}</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
+    <!--dependency>
       <groupId>com.polopoly</groupId>
       <artifactId>polopoly</artifactId>
       <version>${polopoly.version}</version>
@@ -124,7 +124,12 @@
       <version>${polopoly.version}</version>
       <type>jar</type>
       <scope>runtime</scope>
-    </dependency>
+    </dependency-->
+    <dependency>
+      <groupId>com.polopoly</groupId>
+      <artifactId>polopoly</artifactId>
+      <version>${polopoly.version}</version>
+    </dependency>    
     <!-- dependency>
       <groupId>com.polopoly.sites.greenfieldtimes-example</groupId>
       <artifactId>greenfieldtimes</artifactId>
